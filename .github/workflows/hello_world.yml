@@ -1,15 +1,21 @@
-##Nombre
-name: My Hello World
+#Nombre
+name:  Este es mi Hello World
 
-##Evento
-on:
-  workflow_dispatch:
+#Evento
+on: 
+ workflow_dispatch:
 
-jobs: 
+jobs:
   Tarea1:
-  runs-on: windows-latest
+    runs-on: windows-latest
 
-  steps:
-    - name: Digo hola
-     run: echo "Hoala a todos"
-     
+    steps:
+      -  name: Digo Hola 
+         run: echo "Hi"
+         
+      -  name: Quien soy
+         run: whoami
+
+      -  name: Fecha de hoy
+         run: date
+         
