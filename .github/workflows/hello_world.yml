@@ -1,0 +1,15 @@
+##Nombre
+name: My Hello World
+
+##Evento
+on:
+  workflow_dispatch:
+
+jobs: 
+  Tarea1:
+  runs-on: windows-latest
+
+  steps:
+    - name: Digo hola
+     run: echo "Hoala a todos"
+     
