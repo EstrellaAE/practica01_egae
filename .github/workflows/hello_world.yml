@@ -18,5 +18,3 @@ jobs:
 
       -  name: Fecha de hoy
          run: date
-
-      
